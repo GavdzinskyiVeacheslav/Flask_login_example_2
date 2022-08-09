@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body{
+    height: 100%;
+}
+
+/* LOGO */
+
+.logo img{
+    float: left;
+    margin-left: 80px;
+    width: 200px;
+}
+
+/* MAIN MENU */
+
+.header{
+    height: 140px;
+    background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+}
+
+
+.list{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+
+
+.list a{
+    text-decoration: none;
+    color: darkslategrey;
+    font-weight: 400;
+}
+
+
+.list li{
+    list-style: none;
+    margin-right: 10px;
+    width: 140px;
+    margin-top: 5%;
+    box-shadow: 10px 10px 10px grey;
+    font-family: monospace;
+    border-radius: 100px;
+    text-align: center;
+}
+
+
+.list li:hover{
+    transition-duration: 1s;
+    box-shadow: 4px 5px 50px grey;
+}
+
+
+.list p{
+    font-size: 18px;
+}
+
+/* WRAPPER */
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.empty_block{
+    height: 30px;
+}
+
+/* CONTENT */
+
+.content{
+    width: 60%;
+    margin: 100px auto 0;
+    flex: 1 0 auto;
+}
+
+/* MAIN PAGE */
+
+.info{
+    display: flex;
+    margin: 80px auto 0;
+    width: 80%;
+    box-shadow: -5px 15px 10px skyblue;
+    align-items: center;
+    border-radius: 200px;
+    font-family: monospace;
+
+}
+
+
+.description{
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+
+.names{
+    box-shadow: -5px 15px 10px skyblue;
+    border-radius: 200px;
+    padding: 10px 20px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+
+.desc{
+    width: 100%;
+    font-width: 600;
+    color: dodgerblue;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 0px 0px skyblue;
+    border-radius: 200px;
+}
+
+
+.desc li{
+    margin-bottom: 10px;
+    font-style: normal;
+    box-shadow: 5px 3px 10px grey;
+    font-size: 20px;
+    padding: 5px;
+    font-family: monospace;
+    border-radius: 200px;
+    letter-spacing: 2px;
+}
+
+
+ul.checkmark li:before{
+    content: "\2713\0020";
+    color: forestgreen;
+}
+
+
+ul a {
+    text-decoration: none;
+    color: mediumaquamarine;
+}
+
+
+.checkmark li:hover{
+    transition-duration: 0.1s;
+    box-shadow: 0px 12px 10px orange;
+}
+
+
+.checkmark li{
+    list-style: none;
+}
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    font-size: 15px;
+    font-family: monospace;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    flex: 0 0 auto;
+}
+
+
+
+
+
+/*
+h1{
+ color: red;
+}
+
+.wrapper{
+    outline: 1px orange solid;
+    outline: 1px red solid;
+    background-color: aqua;
+}
+*/
